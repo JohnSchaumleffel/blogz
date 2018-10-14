@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Blog</h1>
+
+    <form method='post'>
+        <label>Title</label>
+        <input type="text" name='title' />
+        <label>Body</label>
+        <textarea rows="4" cols="50" name='body'>Enter text here...</textarea>
+        <input type="submit" value="Post"/>
+    </form>
+
+    <hr />
+
+    
+{% endblock %}
